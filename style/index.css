@@ -47,4 +47,75 @@ table {
 	border-spacing: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+* {
+  box-sizing: border-box;
+  background-color: #470601;
+}
+
+body {
+  border: 2px solid rebeccapurple;
+  font-size: 20px;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.site-cont {
+  border: 3px solid red; 
+  width: 95%;
+  margin: auto;
+  padding: 5px 10px;
+}
+
+.hdr-cont {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin: 5px 10px;
+}
+
+.hdr-img {
+  border-radius: 50%;
+  width: 13%;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 900;
+  font-family: 'Rye', cursive;
+  color: #FB590B;
+}
+
+.nav-cont {
+  border: 2px solid yellow;
+  padding: 15px;
+}
+
+.nav-link {
+  border: 2px orange dotted;
+  font-size: 25px;
+  color: #FB590B; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; 
+  line-height: 1.6;
+  text-decoration: none;
+  text-align: center;
+}
+
+.project-list {
+  border: 2px solid blue;  
+}
+
+.project-top {
+  border: 5px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.main-img {
+  width: 87%;
+  border-radius: 70%;
+}
+
