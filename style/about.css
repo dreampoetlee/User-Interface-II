@@ -49,7 +49,6 @@ table {
 
 * {
   box-sizing: border-box;
-  background-color: #A7E5EB;
 }
 
 body {
@@ -63,6 +62,7 @@ body {
   width: 95%;
   margin: auto;
   padding: 5px 10px;
+  background-color: #A7E5EB;
 }
 
 .hdr-cont {
@@ -84,6 +84,7 @@ h1 {
   font-weight: 900;
   font-family: 'Rye', cursive;
   color: #FB590B;
+  margin: auto;
 }
 
 .nav-cont {
